@@ -245,48 +245,14 @@ void loop() {
     
     String data = Serial.readString();
 
-    //float data = Serial.read() - '0';
+
     Serial.print("You sent me: ");    
     Serial.println(data);
     new_data  = data.toFloat();
     test_data = new_data + 2.1;
-    //Serial.print("You sent me: ");    
-    //Serial.println(test_data);
-    current_data = new_data - previous_data;
 
-   //super_f();
    ul_f();
 
-//    spin_data = 50*(current_data);
-//
-//    estimate_data = round(spin_data );
-    //Serial.print("You sent me: ");  
-   
-
-//    if (current_data < reset_data1)
-//    {
-//    current_data  = new_data;
-// //   forward();
-//    previous_data = new_data;
-//    }
-//    else if (new_data > previous_data)
-//    {
-//     // digitalWrite(LED_1_PIN,HIGH);
-//     // delay(500);
-//      //digitalWrite(LED_1_PIN,LOW);
-//     // delay(500);
-//      current_data = +(current_data);
-//      forward();
-//      previous_data = new_data; 
-//     
-//    }
-//    else if (new_data < previous_data)
-//    {
-//      current_data = -(current_data);
-//      reverse();
-//      previous_data = new_data; 
-//    }
-    
     
 
     
