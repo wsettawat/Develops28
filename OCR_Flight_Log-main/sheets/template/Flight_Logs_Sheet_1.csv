@@ -1,0 +1,2 @@
+No.,Flight_Logs,Flight_ID,Date,Timestamp,Drone_vehicle_ID,Docking_station_name,Station_vehicle_ID,Total_distance,Flight_time,Maximum_altitude,Takeoff_time,Landing_time,Mission_type,Finish_action,Failsafes_Type,Start_battery,End_battery
+,,,,,,,,,,,,,,,,,
