@@ -1,0 +1,7 @@
+Hi,
+
+Please note that the Direction Viewer app is not compatible with the sample projects in the nRF Connect SDK, and will only yield results using a proprietary solution outside of the BLE spec. This solution still works great as a proof of concept, but is not what would be used for a final product.
+
+To get the Direction Viewer app in nRF Connect for Desktop: In the settings panel, on the "App sources" card, use "Add source" and add http://developer.nordicsemi.com/.pc-tools/nrfconnect-apps/directionfinding/apps.json as an app source. This should add Direction Viewer to the list of Apps.
+
+Regards,
